@@ -1,0 +1,95 @@
+.container {
+  position: relative;
+  width: 120px;
+	display:block;
+
+	/*border:1px solid #494949;*/
+	text-align:center;
+	text-decoration:none;
+	color: #000;
+}
+
+.image {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	background:rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 50%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 12px;
+	font-weight: bold;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+body {
+	background: #ececec;
+	margin:0;
+	padding:0;
+	font: 13px/1.5 helvetica, arial, san-serif;
+	height: 100%;
+}
+
+
+#maintable td {
+	border: 0px solid #ccc;
+}
+#itemsTable{
+	float:center;
+	margin: 0px;
+	padding: 2px;
+}
+#itemsTable th td{
+	float:center;
+}
+.DropBoxC1, .DropBoxC2, .DropBoxC3, .DropBoxC4, .DropBoxC5, .DropBoxC6, .DropBoxA1, .DropBoxA2, .DropBoxA3, .DropBoxA4, .DropBoxA5, .DropBoxA6 {
+	width: 180px;
+margin: 0px;
+	max-height: 80px;
+	padding: 8px;
+	border: 1px solid gray;
+
+}
+
+img{
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+#cart {
+	background-color:#ccc;
+	padding: 5px;
+	width: 250px;
+	height: 700px;
+}
+
+li{
+	list-style: none;
+}
+div{
+  margin: 0px 0px;
+}
